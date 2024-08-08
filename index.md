@@ -1,6 +1,8 @@
 ---
 title: Home
-layout: home
+layout: default
+nav_exclude: false
+nav_order: 1
 ---
 
 {: .text-grey-dk-200 .lh-0 .pt-4 }
