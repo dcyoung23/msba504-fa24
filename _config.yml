@@ -1,14 +1,8 @@
-title: MSBA 504
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a course website for USD MSBA 504 Data Management
+title: Just the Docs Template
+description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
-plugins:
-  - jekyll-feed
 
-url: https://dcyoung23.github.io/msba504
+url: https://just-the-docs.github.io
 
-search_enabled: true
-
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
