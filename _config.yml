@@ -7,8 +7,8 @@ url: https://dcyoung23.github.io/msba504
 ###### Build settings
 # remote_theme:
 theme: just-the-docs
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 search_enabled: true
 
