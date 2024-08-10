@@ -4,5 +4,52 @@ theme: just-the-docs
 
 url: https://dcyoung23.github.io/msba504
 
+###### Build settings
+# remote_theme:
+theme: just-the-docs
+plugins:
+  - jekyll-feed
+
+search_enabled: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .data/
+  
+
+# Aux link for the upper right navigation
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Gradescope: https://www.gradescope.com/
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Change this to choose where to pick data from
+data_folder: fa24
+
+# Config JTD UI elements here
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: nil
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    title: Caution
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
