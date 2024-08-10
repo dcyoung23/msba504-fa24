@@ -1,0 +1,72 @@
+{"0": {
+    "doc": "ERD Demo",
+    "title": "2_ERD_Demo",
+    "content": " ",
+    "url": "/resources/labs/2_ERD_Demo.html#2_erd_demo",
+    
+    "relUrl": "/resources/labs/2_ERD_Demo.html#2_erd_demo"
+  },"1": {
+    "doc": "ERD Demo",
+    "title": "Background",
+    "content": "SD-Med is a small, family-owned doctor’s office that has been serving a suburban community for over 20 years. The clinic has developed a substantial patient base, but it currently relies on a paper-based system to manage patient records, appointment scheduling, and other operational tasks. Recognizing the need to modernize, SD-Med plans to implement a comprehensive digital database system. This transition aims to enhance operational efficiency, improve data accuracy, and ultimately provide better patient care. [!NOTE] We will only consider entity relationship data modeling concepts for this business scenario and disregard any HIPAA or privacy constraint. Certain aspects of this example have been shortened for the purposes of this lab exercise and not intended to be a complete depiction of a real-world medical clinic. ",
+    "url": "/resources/labs/2_ERD_Demo.html#background",
+    
+    "relUrl": "/resources/labs/2_ERD_Demo.html#background"
+  },"2": {
+    "doc": "ERD Demo",
+    "title": "Business Requirements",
+    "content": "After a series of in-depth interviews with staff, owners and doctors, we have identified the following requirements. ",
+    "url": "/resources/labs/2_ERD_Demo.html#business-requirements",
+    
+    "relUrl": "/resources/labs/2_ERD_Demo.html#business-requirements"
+  },"3": {
+    "doc": "ERD Demo",
+    "title": "ERD Demo",
+    "content": " ",
+    "url": "/resources/labs/2_ERD_Demo.html",
+    
+    "relUrl": "/resources/labs/2_ERD_Demo.html"
+  },"4": {
+    "doc": "Home",
+    "title": "Data Management",
+    "content": " ",
+    "url": "/#data-management",
+    
+    "relUrl": "/#data-management"
+  },"5": {
+    "doc": "Home",
+    "title": "MSBA 504 - University San Diego - Professor Chris Young",
+    "content": "Fall 2024 . ",
+    "url": "/#msba-504---university-san-diego---professor-chris-young",
+    
+    "relUrl": "/#msba-504---university-san-diego---professor-chris-young"
+  },"6": {
+    "doc": "Home",
+    "title": "Course Calendar",
+    "content": "| Week 1 | . | Tue, Sep 03 | LECT | 1_Introduction | . ",
+    "url": "/#course-calendar",
+    
+    "relUrl": "/#course-calendar"
+  },"7": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"8": {
+    "doc": "Labs",
+    "title": "Labs",
+    "content": " ",
+    "url": "/resources/labs/labs.html",
+    
+    "relUrl": "/resources/labs/labs.html"
+  },"9": {
+    "doc": "Resources",
+    "title": "Resources",
+    "content": " ",
+    "url": "/resources/resources.html",
+    
+    "relUrl": "/resources/resources.html"
+  }
+}

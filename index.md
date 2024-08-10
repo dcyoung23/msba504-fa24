@@ -5,17 +5,21 @@ nav_exclude: false
 nav_order: 1
 ---
 
+{% assign variables = site.data[site.data_folder].variables %}
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
 {% assign offset_week = 1 %}
 
-{: .text-grey-dk-200 .lh-0 .pt-4 }
+{: .text-grey-dk-200 .pt-4 .lh-0 }
 # Data Management  
 
-{: .text-grey-dk-300 .fw-300 .lh-0 }
-## MSBA 504 - University San Diego - Professor Chris Young  
+{: .text-grey-dk-300 .fw-300 }
+## MSBA 504 - University San Diego - Professor Chris Young
 
-{: .warning .fs-50 }
-🚧 🚧 This site is under construction preparing for the Fall semester 🚧 🚧  
+{{ variables.term }}
+{: .md-badge-purple }
+
+<!--{: .warning .fs-50 }
+🚧 🚧 This site is under construction preparing for the Fall semester 🚧 🚧 -->
 
 ## Course Calendar
 
