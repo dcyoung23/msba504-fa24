@@ -10,6 +10,6 @@ SD-Med is a small, family-owned doctor's office that has been serving a suburban
 
 After a series of in-depth interviews with staff, owners and doctors, we have identified the following requirements.  
 
-![Chen Notation Symbol Quick Reference][/2_ERD_img_1.png]
+![Chen Notation Symbol Quick Reference](2_ERD_img_1.png)
 
 
