@@ -2,6 +2,7 @@
 title: ERD Demo
 layout: default
 nav_order: 3
+parent: Labs
 ---
 
 # 2_ERD_Demo
