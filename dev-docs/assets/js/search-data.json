@@ -43,21 +43,21 @@
   },"6": {
     "doc": "ERD Demo",
     "title": "Create Entities",
-    "content": "Create rectangles for each entity. Be sure to distinguish weak entities that are dependent on a strong entity. In this business scenario, an appointment is the only weak entity since in order to uniquely identify the appointment it would require the key attribute for patient, clinic, and doctor. ℹ️ Note . All applicable objects can be found under the Entity Relation Shapes section. ",
+    "content": "Create rectangles for each entity. Be sure to distinguish weak entities that are dependent on a strong entity. In this business scenario, an appointment is the only weak entity since in order to uniquely identify the appointment it would require the key attribute for patient, clinic, and doctor. All applicable objects can be found under the Entity Relation Shapes section. ",
     "url": "/resources/labs/2_ERD_Demo.html#create-entities",
     
     "relUrl": "/resources/labs/2_ERD_Demo.html#create-entities"
   },"7": {
     "doc": "ERD Demo",
     "title": "Create Relationships",
-    "content": "Create diamonds for each relationship. Connect entities with their relationship lines and corresponding cardinality (1, M, N). A relationship that is total participation uses double lines but you can always update that later. ℹ️ Note . Recall relationships between a weak and strong entity will always have a diamond with double lines to form the identifying relationship. The relationship between a weak entity and the identifying relationship will always be total participation. ",
+    "content": "Create diamonds for each relationship. Connect entities with their relationship lines and corresponding cardinality (1, M, N). A relationship that is total participation uses double lines but you can always update that later. Recall relationships between a weak and strong entity will always have a diamond with double lines to form the identifying relationship. The relationship between a weak entity and the identifying relationship will always be total participation. ",
     "url": "/resources/labs/2_ERD_Demo.html#create-relationships",
     
     "relUrl": "/resources/labs/2_ERD_Demo.html#create-relationships"
   },"8": {
     "doc": "ERD Demo",
     "title": "Create Attributes",
-    "content": "Create ovals for all attributes around the corresponding entity and connect to the entity with a solid line. ℹ️ Note . Recall key attributes will have a solid underline whereas a partial key attribute will have a dashed underline, multi-valued attributes will have an oval with double lines, derived attributes will have an oval with dashed lines. ",
+    "content": "Create ovals for all attributes around the corresponding entity and connect to the entity with a solid line. Recall key attributes will have a solid underline whereas a partial key attribute will have a dashed underline, multi-valued attributes will have an oval with double lines, derived attributes will have an oval with dashed lines. ",
     "url": "/resources/labs/2_ERD_Demo.html#create-attributes",
     
     "relUrl": "/resources/labs/2_ERD_Demo.html#create-attributes"
