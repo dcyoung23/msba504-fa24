@@ -18,8 +18,8 @@ nav_order: 1
 {{ variables.term }}
 {: .md-badge-purple }
 
-<!--{: .warning .fs-50 }
-🚧 🚧 This site is under construction preparing for the Fall semester 🚧 🚧 -->
+{: .warning .fs-50 }
+🚧 🚧 This site is under construction preparing for the Fall semester 🚧 🚧
 
 ## Course Calendar
 
@@ -65,7 +65,7 @@ nav_order: 1
             <td style="text-align: center"> {{ row.date | date: "%a, %b %d" }} </td>
             <td style="text-align: center">
               {% if row.label == "LECT" %} <span class="md-cal-badge md-cal-badge-blue"> {{ row.label }} </span>
-              {% elsif row.label == "DISC" %} <span class="md-cal-badge md-cal-badge-purple"> {{ row.label }} </span>
+              {% elsif row.label == "LAB" %} <span class="md-cal-badge md-cal-badge-purple"> {{ row.label }} </span>
               {% elsif row.label == "CNCL" %} <span class="md-cal-badge md-cal-badge-red"> {{ row.label }} </span>
               {% elsif row.label == "ASSG" %} <span class="md-cal-badge md-cal-badge-green"> {{ row.label }} </span>
               {% elsif row.label == "EXAM" %} <span class="md-cal-badge md-cal-badge-gray"> {{ row.label }} </span>

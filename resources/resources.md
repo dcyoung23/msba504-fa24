@@ -1,9 +1,11 @@
 ---
+title: Resources
 layout: default
-title: "Resources"
-nav_order: 3
+nav_exclude: false
+nav_order: 2
 has_children: true
-has_toc: true
 ---
 
 # Resources
+
+On this page, you will find a navigational structure for all resources.

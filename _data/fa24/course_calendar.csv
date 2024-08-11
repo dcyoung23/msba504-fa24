@@ -1,2 +1,12 @@
 date,title,label,link
 2024-09-03,1_Introduction,LECT
+2024-09-05,2_ER_Models,LECT
+2024-09-05,2_ERD_Demo,DEMO
+2024-09-10,3_Relational_Databases,LECT
+2024-09-11,Homework 1 Due,HMWK
+2024-09-12,4_Create_Database_Demo,DEMO
+2024-09-17,5_Basic_SQL,LECT
+2024-09-17,5_SQLite_Getting_Started,DEMO
+2024-09-18,Homework 2 Due,HMWK
+2024-09-19,6_CRUD_Operations_Lab,LAB
+2024-09-24,7_Intermediate_SQL,LECT
