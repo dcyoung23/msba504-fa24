@@ -1,0 +1,48 @@
+---
+title: Create Database
+layout: default
+parent: Demos
+grand_parent: Resources
+nav_order: 2
+---
+
+# Create Database Demo
+
+## Overview
+In this demo, we will create the simplified version of the University database discussed in the day 1_Introduction lecture. We will be using DB Browser for SQLite. Click here to go to the DB Browser downloads page and follow the instructions to install the application for your operating system.
+
+{: .note }
+
+As always, certain aspects of this example have been abbreviated for the purposes of this lab exercise. The scenario is not intended to represent a complete depiction of a real-world university.
+
+## Introduction to SQLite
+SQLite is a small and efficient SQL database engine. It is often used for small and embedded databases because it doesn't require a separate server process and is easy to integrate into applications. The entire database including all of the tables, indices, and the data itself is stored in the .db file on your computer. SQLite is highly portable and lightweight, since it has no external dependencies and is used in mobile apps, desktop software, and even in some web applications.
+
+## Create Database
+Open DB Browser and click on the New Database. Browse to the desired destination on your computer, name the new database university and click on Save. You can click on Cancel on the popup window to Edit table definition.
+
+![SQLite Create Database](../../assets/images/)
+
+## Option 1 - Create Table SQL Statements
+In this option, we will be writing the SQL statements to create tables named `student`, `course`, `class_schedule`, and `enrollment`.
+
+### Create the `student` Table
+Click on the Execute SQL tab and SQL 1 tab. Copy and paste the SQL code below and click on the blue triangle to execute the command to create the new table.
+
+``` sql
+CREATE TABLE student (
+  student_id int NOT NULL, 
+  last_name varchar(25) NOT NULL, 
+  first_name varchar(25) NOT NULL, 
+  email_address varchar(50) NOT NULL, 
+  CONSTRAINT student_pk PRIMARY KEY(student_id)
+);
+```
+{: .warning }
+
+If you attempt to run the CREATE TABLE more than once, you will get an Execution error because the table already exists. We will discuss including `DROP TABLE` statements later in this lab.
+
+## Create the Course Table
+
+
+

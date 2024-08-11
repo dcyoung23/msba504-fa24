@@ -8,4 +8,4 @@ has_children: true
 
 # Resources
 
-On this page, you will find a navigational structure for all resources.
+On this page, you will find a navigational structure for all demo and lab resources.
