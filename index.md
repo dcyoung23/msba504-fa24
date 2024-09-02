@@ -12,14 +12,17 @@ nav_order: 1
 {: .text-grey-dk-200 .pt-4 .lh-0 }
 # Data Management  
 
-{: .text-grey-dk-300 .fw-300 }
-## MSBA 504 - University San Diego - Professor Chris Young
+{: .text-grey-dk-300 .fw-300}
+## MSBA 504: University of San Diego - Professor Chris Young
 
 {{ variables.term }}
 {: .md-badge-purple }
 
-{: .warning .fs-50 }
-🚧 🚧 This site is under construction preparing for the Fall semester 🚧 🚧
+{{ variables.location }}
+{: .md-badge-purple }
+
+{{ variables.days_times }}
+{: .md-badge-purple }
 
 ## Course Calendar
 
@@ -65,12 +68,13 @@ nav_order: 1
             <td style="text-align: center"> {{ row.date | date: "%a, %b %d" }} </td>
             <td style="text-align: center">
               {% if row.label == "LECT" %} <span class="md-cal-badge md-cal-badge-blue"> {{ row.label }} </span>
+              {% elsif row.label == "DEMO" %} <span class="md-cal-badge md-cal-badge-green"> {{ row.label }} </span>
               {% elsif row.label == "LAB" %} <span class="md-cal-badge md-cal-badge-purple"> {{ row.label }} </span>
-              {% elsif row.label == "CNCL" %} <span class="md-cal-badge md-cal-badge-red"> {{ row.label }} </span>
-              {% elsif row.label == "ASSG" %} <span class="md-cal-badge md-cal-badge-green"> {{ row.label }} </span>
-              {% elsif row.label == "EXAM" %} <span class="md-cal-badge md-cal-badge-gray"> {{ row.label }} </span>
-              {% elsif row.label == "QUIZ" %} <span class="md-cal-badge md-cal-badge-green"> {{ row.label }} </span>
-              {% elsif row.label == "DEMO" %} <span class="md-cal-badge md-cal-badge-yellow"> {{ row.label }} </span>
+              {% elsif row.label == "PROJ" %} <span class="md-cal-badge md-cal-badge-gray"> {{ row.label }} </span>
+              {% elsif row.label == "HMWK" %} <span class="md-cal-badge md-cal-badge-yellow"> {{ row.label }} </span>
+              {% elsif row.label == "QUIZ" %} <span class="md-cal-badge md-cal-badge-red"> {{ row.label }} </span>
+              {% elsif row.label == "EXAM" %} <span class="md-cal-badge md-cal-badge-red"> {{ row.label }} </span>
+              {% elsif row.title contains "Due" %} <span class="md-cal-badge md-cal-badge-red"> {{ row.label }} </span>
               {% else %}
                 {% if row.label %} <span class="md-cal-badge md-cal-badge-black"> {{ row.label }} </span>
                 {% endif %}

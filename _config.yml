@@ -22,7 +22,9 @@ exclude:
 
 # Aux link for the upper right navigation
 aux_links:
+  Canvas: http://canvas.sandiego.edu/
   Gradescope: https://www.gradescope.com/
+  Slack: https://usd-msba.slack.com
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -35,22 +37,32 @@ data_folder: fa24
 #color_scheme: nil
 
 callouts_level: quiet # or loud
+
 callouts:
   highlight:
-    title: Caution
+    title: ⚠️Caution
     color: yellow
   important:
     title: Important
     color: purple
   new:
-    title: New
+    title: Discussion
     color: green
   note:
     title: Note
     color: blue
   warning:
-    title: Warning
+    title: ❗Warning
     color: red
+  tip:
+    title: 💡Tip
+    color: green
+  acknowledgment:
+    title: 🖋️Acknowledgment
+    color: blue
+  task:
+    title: ✅Task
+    color: green
 
 # Back to top link
 back_to_top: true
