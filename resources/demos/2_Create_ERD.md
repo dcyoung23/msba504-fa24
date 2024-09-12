@@ -1,6 +1,6 @@
 ---
 title: Create ERD
-layout: default
+layout: minimal
 parent: Demos
 grand_parent: Resources
 nav_order: 1
