@@ -20,7 +20,7 @@ To follow along, you will need to install [DB Browser](https://sqlitebrowser.org
 
 ## Part 3: Download IMDb Database
 
-In this demo, we utilize a medium sized SQLite database that primarily covers titles from 2015 to 2021. Click [here]([TBD](https://drive.google.com/file/d/1sAZsrpp8JmLeNhQ7Hz09HR5-mXesuCkw/view?usp=sharing)) to download the database file.
+In this demo, we utilize a medium sized SQLite database that primarily covers titles from 2015 to 2021. Click [here](https://drive.google.com/file/d/1sAZsrpp8JmLeNhQ7Hz09HR5-mXesuCkw/view?usp=sharing) to download the database file.
 
 {: .tip }
 
