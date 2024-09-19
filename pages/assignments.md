@@ -20,7 +20,6 @@ permalink: /assignments/
 | Lab 3          | ✓                | ✗                  | ✗                   | 2-3 ✓               |
 | Quiz 1         | ✗                | ✗                  | ✓                   | ✗                   |
 | Quiz 2         | ✗                | ✗                  | ✓                   | ✗                   |
-| Quiz 3         | ✗                | ✗                  | ✓                   | ✗                   |
 | Final Exam     | ✓                | ✗                  | ✓                   | ✗                   |
 | Project 1      | ✓                | ✓                  | ✗                   | 2-3 ✓               |
 | Project 2      | ✓                | ✗                  | ✗                   | 2-3 ✓               |

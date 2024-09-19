@@ -85,8 +85,8 @@ This is a data management class and we will be utilizing a variety of software a
 |:----------------------------------------------|:-----------------|:-------------------|
 | 5 Homeworks                                   |               35 |     175 (35 each)  |
 | 3 Live Labs                                   |               15 |      75 (25 each)  |
-| 3 Quizzes                                     |               15 |      75 (25 each)  |
-| 1 Final Exam                                  |               15 |               75   |
+| 2 Quizzes                                     |               10 |      50 (25 each)  |
+| 1 Final Exam                                  |               20 |               100  |
 | 4 Group Project Milestones                    |               20 |      100 (25 each) |
 | Bonus                                         |          Up to 5 |                25  |
 
@@ -137,7 +137,7 @@ There is a 24-hour grace period for all homework assignments with **NO** late pe
 Some homework assignments are **mandatory** to be completed in a group of 2-4 students. Programming assignments may be completed on your own or with a homework partner. This means that you can work with one other student but each student must submit their own version of the assignment on Canvas/Gradescope. 
 
 ### Quizzes
-There are 3 quizzes that focus primarily on the conceptual materials covered in the lectures and textbook. The format will vary between True/False, multiple choice, and matching questions. Quizzes should be straightforward if you are attending class and keeping up with the material. Quizzes are just a way to make sure you keep up with studying and do not fall too far behind as this class really builds on each previous week. Quizzes are completed on Canvas and by yourself with no collaboration/communication with any other students.
+There are 2 quizzes that focus primarily on the conceptual materials covered in the lectures and textbook. The format will vary between True/False, multiple choice, matching and fill in the blank style questions. Quizzes should be straightforward if you are attending class and keeping up with the material. Quizzes are just a way to make sure you keep up with studying and do not fall too far behind as this class really builds on each previous week. Quizzes are completed on Canvas and by yourself with no collaboration/communication with any other students.
 
 ### Final Exam
 The comprehensive final exam is completed on Canvas and by yourself with no collaboration/communication with any other students. No late exams are permitted, except for extenuating circumstances. Please reach out to the professor as early as possible if you know something will prevent you from taking the final exam on time. 
