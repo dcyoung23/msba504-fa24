@@ -145,6 +145,11 @@ DROP TABLE IF EXISTS student;
 ```
 These statements will drop all of the tables if they already exist.
 
+{: .tip }
+
+The `CASCADE` parameter in the `DROP TABLE` statement will automatically drop objects that depend on the table but this is one example of SQL functionality that only exists in some relational database systems.
+
+
 ### Create ERD in pgAdmin
 Now that we have a database with all of the tables and constraints, we can reverse engineer the ERD from the logical database. Right/Secondary click on the `university` database and select ERD for Database. This will create a new tab with an ERD. You can rearrange the entities around for a cleaner organization of the ERD.
 
