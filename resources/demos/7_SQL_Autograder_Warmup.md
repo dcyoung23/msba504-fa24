@@ -76,22 +76,32 @@ Write a SQL statement for each of the following questions. A sample output is pr
 
 Write a query that returns the total number of employees for the company.
 
+**Sample Output:**  
+
+![Q1](../demos/images/7_Q1.png)
+
+Copy and paste your code into the `submission.yaml` file for Question 1.
+
+**Answer:**  
+
 ``` sql
 SELECT
   COUNT(*) AS employee_cnt
 FROM
   employee;
 ```
-
-**Sample Output:**  
-
-![Q1](../demos/images/7_Q1.png)
-
-Copy and paste the code into the `submission.yaml` file for Question 1.
    
 **Question 2**
 
 Write a query that returns the minimum, maximum, and average salary for all employees in the company.
+   
+**Sample Output:**  
+
+![Q2](../demos/images/7_Q2.png)  
+
+Copy and paste your code into the `submission.yaml` file for Question 2.
+
+**Answer:**  
 
 ``` sql
 SELECT
@@ -102,15 +112,17 @@ FROM
   employee;
 ```
    
-**Sample Output:**  
-
-![Q2](../demos/images/7_Q2.png)  
-
-Copy and paste the code into the `submission.yaml` file for Question 2.
-   
 **Question 3**
 
 Write a query that returns the employee with the Programmer title that has the lowest salary.
+   
+**Sample Output:**  
+
+![Q3](../demos/images/7_Q3.png) 
+
+Copy and paste your code into the `submission.yaml` file for Question 3.
+
+**Answer:**  
 
 ``` sql
 SELECT
@@ -129,12 +141,6 @@ ORDER BY
 LIMIT
   1;
 ```
-   
-**Sample Output:**  
-
-![Q3](../demos/images/7_Q3.png) 
-
-Copy and paste the code into the `submission.yaml` file for Question 3.
    
 **Question 4**
 
