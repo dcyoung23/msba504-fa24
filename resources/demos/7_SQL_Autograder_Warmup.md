@@ -90,7 +90,17 @@ SELECT
 FROM
   employee;
 ```
-   
+The formatting in your `submission.yaml` file should look like this:
+
+```yaml
+- question: 1
+  answer: |
+    SELECT
+      COUNT(*) AS employee_cnt
+    FROM
+      employee;
+```
+
 **Question 2**
 
 Write a query that returns the minimum, maximum, and average salary for all employees in the company.
@@ -111,6 +121,7 @@ SELECT
 FROM
   employee;
 ```
+
    
 **Question 3**
 

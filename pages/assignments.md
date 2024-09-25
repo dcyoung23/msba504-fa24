@@ -58,6 +58,7 @@ The autograder functionality is new so if you encounter any issues submitting yo
 - The `.yaml` file will be provided complete with all of the required questions for the assignment. 
 - Do **NOT** modify the "question" sections in the `.yaml` file.
 - Do **NOT** change the name of the `.yaml` file provided for the assignment.
+- Your code **MUST** be indented and should **NOT** be left aligned with `answer: |`
 - To ensure accurate formatting, edit/paste your code into a text editor that supports `.yaml` files.
 
 **Submitting Your Work**:
