@@ -42,7 +42,7 @@ The autograder functionality is new so if you encounter any issues submitting yo
 **Steps for Submission**:
 1. **Download the Assignment Files**: All homework and group project assignment files will be provided on Canvas.
 2. **Input Your Answers**: Populate the `.yaml` file with your responses for each respective question.
-3. **Formatting Reference**: See the example `answer.yaml` file below to understand the required format. Critical components include the use of the "pipe" character for multiline strings and proper indentation. Incorrect formatting can result in the autograder misreading your submission.
+3. **Formatting Reference**: See the example `submission.yaml` file below to understand the required format. Critical components include the use of the "pipe" character for multiline strings and proper indentation. Incorrect formatting can result in the autograder misreading your submission.
 
 ```yaml
 - question: 1
