@@ -76,6 +76,13 @@ Write a SQL statement for each of the following questions. A sample output is pr
 
 Write a query that returns the total number of employees for the company.
 
+``` sql
+SELECT
+  COUNT(*) AS employee_cnt
+FROM
+  employee;
+```
+
 **Sample Output:**  
 
 ![Q1](../demos/images/7_Q1.png)
@@ -85,6 +92,15 @@ Copy and paste the code into the `submission.yaml` file for Question 1.
 **Question 2**
 
 Write a query that returns the minimum, maximum, and average salary for all employees in the company.
+
+``` sql
+SELECT
+  MIN(salary) AS salary_min,
+  MAX(salary) AS salary_max,
+  AVG(salary) AS salary_avg
+FROM
+  employee;
+```
    
 **Sample Output:**  
 
@@ -95,6 +111,24 @@ Copy and paste the code into the `submission.yaml` file for Question 2.
 **Question 3**
 
 Write a query that returns the employee with the Programmer title that has the lowest salary.
+
+``` sql
+SELECT
+  e.employee_id,
+  e.first_name,
+  e.last_name,
+  e.salary,
+  j.job_title
+FROM
+  employee e
+  INNER JOIN job j ON e.job_id = j.job_id
+WHERE
+  j.job_title = 'Programmer'
+ORDER BY
+  e.salary
+LIMIT
+  1;
+```
    
 **Sample Output:**  
 
@@ -105,6 +139,23 @@ Copy and paste the code into the `submission.yaml` file for Question 3.
 **Question 4**
 
 Write a query that returns all employees that make less than 50% of their max salary for the job title and order the results by their salary in ascending order.
+
+``` sql
+SELECT
+  e.employee_id,
+  e.first_name,
+  e.last_name,
+  e.salary,
+  j.job_title,
+  j.max_salary AS job_max_salary
+FROM
+  employee e
+  INNER JOIN job j ON e.job_id = j.job_id
+WHERE
+  e.salary < j.max_salary * .50
+ORDER BY
+  e.salary;
+```
    
 **Sample Output:**  
 
@@ -115,6 +166,22 @@ Copy and paste the code into the `submission.yaml` file for Question 4.
 **Question 5**
 
 Write a query that returns the minimum, maximum, and average salary in each department and order the results by average salary in descending order. Round the average salary to 2 decimal places.
+
+``` sql
+SELECT
+  d.department_name,
+  MIN(salary) AS dept_min_salary,
+  MAX(salary) AS dept_max_salary,
+  ROUND(AVG(salary),2) AS dept_avg_salary,
+  COUNT(e.employee_id) AS employee_cnt
+FROM
+  employee e
+  INNER JOIN department d ON e.department_id = d.department_id
+GROUP BY
+  d.department_name
+ORDER BY
+  dept_avg_salary DESC;
+```
    
 **Sample Output:**  
 
