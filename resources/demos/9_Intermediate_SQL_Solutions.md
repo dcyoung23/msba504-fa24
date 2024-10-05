@@ -8,7 +8,7 @@ nav_order: 5
 
 ### Employee Small Database  
 
-The following 10 questions were referenced in the [7_SQL_Autograder_Warmup](../demos/7_SQL_Autograder_Warmup.html) demo as well as the day 9_Intermediate_SQL_2 lecture.
+The following 10 questions were referenced in the [7_SQL_Autograder_Warmup](../demos/7_SQL_Autograder_Warmup.html) demo as well as the demo after the day 9_Intermediate_SQL_2 lecture.
 
 **Question 1**
 
@@ -64,6 +64,8 @@ LIMIT
 **Question 4**
 
 Write a query that returns all employees that make less than 50% of their max salary for the job title and order the results by their salary in ascending order.
+
+**Answer:**  
   
 ``` sql
 SELECT
@@ -85,6 +87,8 @@ ORDER BY
 **Question 5**
 
 Write a query that returns the minimum, maximum, and average salary in each department and order the results by average salary in descending order. Round the average salary to 2 decimal places.
+
+**Answer:**  
    
 ``` sql
 SELECT
@@ -105,6 +109,8 @@ ORDER BY
 **Question 6**
 
 Write a query that returns the minimum, maximum, and average salary in each department with at least 5 employees and order the results by average salary in descending order. Round the average salary to 2 decimal places.
+
+**Answer:**  
    
 ``` sql
 SELECT
@@ -127,6 +133,8 @@ ORDER BY
 **Question 7**
 
 Write a query that returns the number of dependents per employee in the Sales and Executive departments. Employees that have no dependents should be zero and order the results by the number of dependents in descending order.
+
+**Answer:**  
    
 ``` sql
 SELECT
@@ -152,6 +160,8 @@ ORDER BY
 
 Write a query that returns the number of employees by region and country with locations not in the United States and Canada and order the results by the number of employees in descending order.
 
+**Answer:**  
+
 ``` sql
 SELECT
   r.region_name,
@@ -174,6 +184,8 @@ ORDER BY
 
 Write a query that returns the % of employees that work in the USA.
 
+**Answer:**  
+
 ``` sql
 SELECT
   ROUND(SUM(CASE WHEN l.country_id = 'US' THEN 1 ELSE 0 END)
@@ -187,6 +199,8 @@ INNER JOIN main.location l on l.location_id = d.location_id;
 **Question 10**
 
 Write a query that returns all employees that have a manager that is not in the same department. Employees that do not have a manager should be included in the results.
+
+**Answer:**  
 
 ``` sql
 SELECT
@@ -212,6 +226,8 @@ The following query uses the `sales` database that has been referenced in the In
 
 A customer is currently looking at the GT RTS-2 Mountain Bike (11) but the price point is out of their budget.
 Write a query that returns all other bikes that have a retail price less than the GT RTS-2 Mountain Bike.
+
+**Answer:**  
 
 ``` sql
 SELECT
